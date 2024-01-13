@@ -1,2 +1,3 @@
-export const one = 1
-export const two = 2
+export type PickKeysByType<T, V> = keyof {
+  [K in keyof T as T[K] extends V ? K : never]: T[K];
+}
