@@ -1,7 +1,7 @@
 {
   "name": "@yjhtry/types-func",
   "type": "module",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "packageManager": "pnpm@8.15.2",
   "description": "Typescript utility functions Collection",
   "author": "yjh <860622588@qq.com>",
