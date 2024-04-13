@@ -2,7 +2,7 @@
   "name": "@yjhtry/types-func",
   "type": "module",
   "version": "0.0.6",
-  "packageManager": "pnpm@8.15.2",
+  "packageManager": "pnpm@8.15.6",
   "description": "Typescript utility functions Collection",
   "author": "yjh <860622588@qq.com>",
   "license": "MIT",
@@ -48,21 +48,21 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.4",
+    "@antfu/eslint-config": "^2.13.3",
     "@antfu/ni": "^0.21.12",
     "@antfu/utils": "^0.7.7",
-    "@types/node": "^20.11.17",
-    "bumpp": "^9.3.0",
-    "eslint": "^8.56.0",
-    "esno": "^4.0.0",
+    "@types/node": "^20.12.7",
+    "bumpp": "^9.4.0",
+    "eslint": "^9.0.0",
+    "esno": "^4.7.0",
     "lint-staged": "^15.2.2",
-    "pnpm": "^8.15.2",
+    "pnpm": "^8.15.6",
     "rimraf": "^5.0.5",
-    "simple-git-hooks": "^2.9.0",
-    "typescript": "^5.3.3",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
-    "vite": "^5.1.1",
-    "vitest": "^1.2.2"
+    "vite": "^5.2.8",
+    "vitest": "^1.5.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
